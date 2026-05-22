@@ -36,6 +36,8 @@ AI agents need more than a headless Chrome wrapper — they need a complete brow
 - Cross-browser multi-session — different browsers operating simultaneously, fully independent
 - Multi-account isolation — each browser has its own fingerprint, proxy, and cookies; websites cannot correlate them
 
+**Isolation: independent identity per browser** — Each stealth browser is a fully independent identity — independent fingerprint, independent proxy, independent cookies. Websites cannot correlate them. Privacy mode further ensures zero residue between sessions.
+
 **Three browser types for different scenarios:**
 
 | Type | Use Case | Key Feature |
@@ -46,10 +48,12 @@ AI agents need more than a headless Chrome wrapper — they need a complete brow
 
 All three share the same command interface. Learn one, use all.
 
-**Designed for agent context efficiency:**
+**Designed for agents:**
 
-- Compact text output, consuming fewer tokens than JSON
-- 50+ commands covering navigation, forms, screenshots, network capture, cookie management
+- **Context efficiency** — compact text output, consuming fewer tokens than JSON or HTML
+- **Index-based operation** — `state` returns indexed interactive elements; agent operates by index directly, no complex DOM parsing
+- **Parallel safety** — session ownership model + explicit naming, no conflicts between multiple agents
+- **Complete capabilities** — 50+ commands covering navigation, forms, screenshots, network capture, cookie management
 
 **Security: confirmation gating** — sensitive operations (creating browsers, deletion, importing Profiles) require explicit user approval. No exceptions. Prior approvals do not carry over. Enforced at the Skill layer, not a configuration toggle.
 
