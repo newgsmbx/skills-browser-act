@@ -59,11 +59,6 @@ The browser an AI agent needs has to reach places standard tools can't, let a hu
 
 - **Better headless** — Default headless without disrupting users; stealth headless that isn't detected.
 - **Cross-platform remote handoff** — Any device opens the link to take over, and the agent continues seamlessly.
-- **Network capture & HAR recording** — Discover the API endpoints behind any UI, debug auth flows, capture XHR data not in the HTML.
-- **JavaScript escape hatch** — `eval` runs arbitrary JS in the page when index-based interaction isn't enough — bulk extraction, deeply nested data, custom logic.
-- **Cookie import/export** — Share login state across browser types without a full Profile copy.
-- **Offline mode** — Cut a session's network to test form submissions without real side effects.
-- **50+ commands** — Navigation, interaction, data extraction, waiting, tabs, dialogs, network capture, HAR, cookies, offline mode — full automation surface.
 
 ---
 
