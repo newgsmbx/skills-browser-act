@@ -105,6 +105,18 @@ browser-act get-skills core --skill-version 2.0.2
 
 ---
 
+## What's Free
+
+Progressive model — almost everything is free. Only managed proxies and stealth browsers beyond the first 5 require payment.
+
+| Feature | No Signup | Login Only | Paid |
+|---------|:---------:|:----------:|:----:|
+| Basic automation (state, click, input, screenshot), Chrome / Chrome-direct | ✓ | ✓ | ✓ |
+| Stealth browser (≤ 5), stealth-extract, solve-captcha, remote-assist, privacy mode, Skill Forge | — | ✓ | ✓ |
+| Stealth browser (> 5), Dynamic / Static proxy | — | — | ✓ |
+
+---
+
 ## Documentation
 
 Full documentation covers anti-blocking, browser modes, sessions and concurrency, headless and remote handoff, agent design, the Skills system, and the complete command reference.
